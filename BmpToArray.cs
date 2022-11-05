@@ -8,8 +8,6 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace fasterimagefuncs
-{
     public static class BmpToArray
     {
         public static Color[] ToArray(this Bitmap bitmap)
@@ -43,4 +41,3 @@ namespace fasterimagefuncs
         }
 
     }
-}
